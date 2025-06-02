@@ -51,8 +51,17 @@
     <a href="#" class="order-button">Order Now</a>
   </div>
 </div>
-
   </section>
+  <script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('navMenu');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('show');
+  });
+</script>
+
 </body>
 </html>
 
